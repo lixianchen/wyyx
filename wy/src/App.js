@@ -4,6 +4,12 @@ import {
   Route,
   Link
 } from 'react-router-dom'
+import './App.css';
+
+
+
+
+
 import Home from './components/Home'
 import Special from './components/Special'
 import Classification from './components/Classification'
@@ -23,7 +29,7 @@ const App = () => (
         <Route path="/shopping" component={Shopping}/>
         <Route path="/my" component={My}/>
       </div>
-      <ul>
+      <ul className="router-ul">
         <li><Link to="/">Home</Link></li>
         <li><Link to="/special">专题</Link></li>
         <li><Link to="/classification">分类</Link></li>
