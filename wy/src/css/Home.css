@@ -1,5 +1,10 @@
-.hz{
-    width:100px;
-    height: 200px;
+.box{
+    width:100%;
+    height:o.5rem;
+    text-align: center;
+    line-height:0.5rem;
     background: red;
+}
+.box span{
+    font-size:0.22rem;
 }
