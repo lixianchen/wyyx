@@ -30,10 +30,7 @@ const App = () => (
         <Route path="/my" component={My}/>
       </div>
       <ul className="router-ul">
-        <li>
-          <img src="icon/2.png"/>
-          <Link to="/">Home</Link>
-        </li>
+        <li><Link to="/">Home</Link></li>
         <li><Link to="/special">专题</Link></li>
         <li><Link to="/classification">分类</Link></li>
         <li><Link to="/shopping">购物车</Link></li>
