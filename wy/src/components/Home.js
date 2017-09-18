@@ -4,13 +4,9 @@ import { Input,Tabs,Carousel } from 'antd';
 
 const Search = Input.Search;
 const TabPane = Tabs.TabPane;
-function callback(key) {
 
-}
-function onChange(a, b, c) {
-
-}
-
+function callback(key) {}
+function onChange(a, b, c) {}
 export default class Home extends React.Component{
     render(){
         return(
@@ -43,6 +39,19 @@ export default class Home extends React.Component{
                     <div><h3>3</h3></div>
                     <div><h3>4</h3></div>
                   </Carousel>
+
+                  <div>
+                    <h3>品牌制造商直供</h3>
+                    <ul className="center_ul">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                  </div>
+
+
 
                 </div>
 
