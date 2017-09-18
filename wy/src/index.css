@@ -29,3 +29,8 @@ li{list-style: none}
     height:100%;
 
    }
+
+.router-ul li img{
+  width:30px;
+  height:30px;
+}
